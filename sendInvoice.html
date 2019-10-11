@@ -176,7 +176,14 @@
             margin: auto;
 
         }
+
+        a {
+            text-decoration: none;
+        }
         
+        a:hover {
+            text-decoration: none;
+        }
         .payment {
             max-width: 300px;
             font-weight: bold;
@@ -286,7 +293,7 @@
                     Invoice
                 </div>
                 <div class="box-5">
-                    <a href="#"><button class="sendInvoice">SEND</button></a>
+                    <a href="invoice-sent.html"><button class="sendInvoice">SEND</button></a>
                 </div>
         </header>
 
@@ -307,7 +314,7 @@
                             Invoice
                         </div>
                         <div class="box-5">
-                            <a href="#"><button class="sendInvoice">SEND INVOICE</button></a>
+                            <a href="invoice-sent.html"><button class="sendInvoice">SEND INVOICE</button></a>
                         </div>
 
                         <!-- Our failed attempt at implementing it with bootstrap lol -->
@@ -333,7 +340,7 @@
             <div class=" container mainContent">
                 <section>
                     <div class="row topMenu">
-                        <button type="button" class="btn btn-sm editInvoice "><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;EDIT INVOICE</button>
+                        <button type="button" class="btn btn-sm editInvoice "><i class="fa fa-pencil" aria-hidden="true"></i><a href="edit-invoice.html">&nbsp;EDIT INVOICE</a></button>
                         <div class="ml-auto"><a class="invoiceSettings" href=""><p><i class="fas fa-cog"></i> Invoice Settings</a></p></div>
                     </div>
                 </section>
